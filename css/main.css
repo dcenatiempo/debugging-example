@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  font-family:sans-serif;
+}
+
+body {
+  background: rgb(242, 242, 245);
+}
+
+section.calculator {
+  display: flex;
+  align-items: center;
+}
+
+section.calculator > * {
+  font-size: 1.5rem;
+  margin: 0 .5em;
+}
+section.calculator input[type=number] {
+  width: 4em;
+  border: none;
+  background: none;
+  border-bottom: solid;
+  text-align: right;
+  overflow-x: scroll;
+}
+
+section.calculator select {
+  background: none;
+  border: none;
+  width: 2em;
+}
+
+section.calculator span.answer {
+  display: inline-block;
+  width: 4em;
+}
+section.calculator span.equals {
+  display: inline-block;
+  width: 2em;
+  text-align: center;
+}
