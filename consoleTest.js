@@ -40,6 +40,6 @@ console.time('Total Time to run console.logs');
   console.assert(1===2, 'falied assertion');
 
   console.count('counter');
-  funcThree();
+  funcOne();
 
 console.timeEnd('Total Time to run console.logs');
